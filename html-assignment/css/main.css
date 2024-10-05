@@ -1,0 +1,41 @@
+body {
+    font-family: 18px;   
+}
+
+header, footer {
+    background-color: rgb(169, 77, 34);
+}
+.main_heading {
+    color: rgb(213, 200, 173);
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+nav p {
+    margin: 0; 
+}
+
+nav a {
+    text-decoration: none; 
+    background-color: #8caccf; 
+    color: white; 
+    padding: 1px 6px; 
+    border: 0.5px solid #799dc3; 
+    border-radius: 1px; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #0056b3; 
+}

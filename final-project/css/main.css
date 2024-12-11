@@ -373,6 +373,10 @@ nav ul li:first-child a {
 	padding: 20px;
 }
 
+.footer a {
+    color: inherit; 
+}
+
 /* desktop */
 
 @media screen and (min-width: 720px) {
